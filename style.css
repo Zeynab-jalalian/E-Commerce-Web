@@ -76,3 +76,16 @@ body{
  bottom: -4px;
  left: 20px;
 }
+/* home */
+#hero{
+    background: url("img/hero.jpg");
+    height: 90vh;
+    width: 100%;
+    background-position: top 25% right 0;
+    background-size: cover;
+    padding: 0 80px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
