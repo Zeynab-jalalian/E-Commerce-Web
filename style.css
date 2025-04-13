@@ -100,11 +100,15 @@ body{
     color: #088178;
 }
 #hero button{
-    background: #e3e6f3;
-    color: #088178;
+    background: #000000;
+    color: #ffffff;
     padding: 14px 80px 14px 65px;
     border: none;
     cursor: pointer;
     font-weight: 700;
     font-size: 15px;
+}
+#hero button:hover{
+    background: #c2c2c2;
+    color: #465b52;
 }
