@@ -164,6 +164,12 @@ body{
 #product1{
     text-align: center;
 }
+#product1 .pro-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 20px;
+}
 #product1 .pro{
     width: 23%;
     min-width: 250px;
