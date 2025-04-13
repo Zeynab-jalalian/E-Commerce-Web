@@ -112,3 +112,37 @@ body{
     background: #c2c2c2;
     color: #465b52;
 }
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#feature .fe-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 15px 0;
+    width: 180px;
+    box-shadow: 20px 20px 34px rgba(0,0,0,0.03);
+    border-radius: 4px;
+    border: 1px solid #cce7d0;
+    padding: 25px 15px;
+}
+#feature .fe-box:hover{
+    box-shadow: 10px 10px 54px rgba(70,62,221,0.1);
+}
+#feature .fe-box h6{
+    display: inline-block;
+    background: #fddde4;
+    color: #088178;
+    line-height: 1;
+    border-radius: 4px;
+    padding: 9px 8px 6px 8px;
+}
+#feature img{
+    width: 50%;
+    margin-bottom: 10px;
+}
