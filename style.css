@@ -314,3 +314,42 @@ background-image: url('img/b2.jpg');
     background: #088178;
     border: 1px solid #088178;
 }
+#banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+#banner3 .banner-box{
+    display: flex;
+ flex-direction: column;
+ align-items: start;
+ justify-content: center;
+ min-width: 30%;
+ height: 30vh;
+ background-image: url('img/bb0.jpg');
+ background-size: cover;
+ background-position: center;
+ padding: 20px;
+}
+#banner3 .banner-box .banner-box-text{
+ background: rgba(0, 0, 0, 0.6);
+ padding: 11px 18px;
+ border-radius: 10px;
+}
+#banner3 .banner-box2{
+    background-image: url('img/bb1.jpg');
+}
+#banner3 .banner-box3{
+    background-image: url('img/bb2.jpg');
+}
+#banner3 h2{
+    color: #fff;
+    font-weight: 900;
+    font-size: 22px;
+}
+#banner3 h3{
+    color: #ec544e;
+    font-weight: 800;
+    font-size: 15px;
+}
