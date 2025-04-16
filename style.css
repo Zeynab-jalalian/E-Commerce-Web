@@ -331,6 +331,7 @@ background-image: url('img/b2.jpg');
  background-size: cover;
  background-position: center;
 margin-bottom: 20px;
+padding: 20px;
 }
 #banner3 .banner-box .banner-box-text{
  background: rgba(0, 0, 0, 0.6);
