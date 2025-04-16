@@ -49,6 +49,17 @@ button.normal{
     outline: none;
     transition: 0.2s;
 }
+button.white{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #fff;
+    outline: none;
+    transition: 0.2s;
+}
 /* header */
 #header{
     display: flex;
@@ -262,4 +273,44 @@ color: rgb(243,181,25);
 #banner h4{
     color: #fff;
     font-size: 16px;
+}
+#sm-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#sm-banner .banner-box{
+ display: flex;
+ flex-direction: column;
+ align-items: start;
+ justify-content: center;
+ min-width: 580px;
+ height: 50vh;
+ background-image: url('img/b1.jpg');
+ background-size: cover;
+ background-position: center;
+ padding: 30px;
+}
+#sm-banner .banner-box2{
+background-image: url('img/b2.jpg');
+}
+#sm-banner h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+#sm-banner h2{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+}
+#sm-banner span{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+#sm-banner .banner-box:hover button{
+    background: #088178;
+    border: 1px solid #088178;
 }
