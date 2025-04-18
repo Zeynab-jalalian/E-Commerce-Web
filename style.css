@@ -73,6 +73,13 @@ button.white{
     top: 0;
     left: 0;
 }
+#mobile{
+    display: none;
+    align-items: center;
+}
+#close{
+    display: none;
+}
 #navbar{
     display: flex;
     justify-content: center;
@@ -448,4 +455,49 @@ footer .install .row img{
 footer .copyright{
     width: 100%;
     text-align: center;
+}
+/*Media Query*/
+@media(max-width:799px){
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        width: 300px;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        padding: 80px 0 0 10px;
+        background: #e3e6f3;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        transition: 0.3s;
+    }
+    #navbar li{
+        margin-bottom: 25px;
+    }
+    #mobile{
+        display: flex;
+    }
+    #mobile i{
+        color: #1a1a1a;
+        font-size: 24px;
+        padding-left: 20px;
+        cursor: pointer;
+    }
+    #navbar.open{
+        right: 0;
+    }
+    #close{
+        display: flex;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 24px;
+        cursor: pointer;
+    }
+    #lg-bag{
+        display: none;
+    }
 }
