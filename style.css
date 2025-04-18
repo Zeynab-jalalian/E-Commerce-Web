@@ -457,7 +457,7 @@ footer .copyright{
     text-align: center;
 }
 /*Media Query*/
-@media(max-width:799px){
+@media(max-width:1200px){
     .section-p1{
         padding: 40px 40px;
     }
