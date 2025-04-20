@@ -456,6 +456,22 @@ footer .copyright{
     width: 100%;
     text-align: center;
 }
+/* shop */
+#page-header{
+background: url('img/page-header.jpg');
+height: 40vh;
+width: 100%;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 14px;
+}
+#page-header h2,
+#page-header p{
+    color: #fff;
+}
 /*Media Query*/
 @media(max-width:1200px){
     .section-p1{
