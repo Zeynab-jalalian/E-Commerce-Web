@@ -487,6 +487,19 @@ padding: 14px;
     font-size: 16px;
     font-weight: 600;
 }
+/*single product*/
+#prodetails .single-pro-image{
+width: 40%;
+margin-right: 50px;
+}
+.small-img-group{
+    display: flex;
+    justify-content:space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
 /*Media Query*/
 @media(max-width:1200px){
     .section-p1{
