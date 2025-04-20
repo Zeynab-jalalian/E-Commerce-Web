@@ -538,6 +538,10 @@ margin-right: 50px;
 #prodetails .single-pro-details span{
     line-height: 25px;
 }
+/*blog page */
+#page-header.blog-header{
+ background: url('img/blog.jpg');
+}
 /*Media Query*/
 @media(max-width:1200px){
     .section-p1{
