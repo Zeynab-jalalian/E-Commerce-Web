@@ -507,6 +507,8 @@ margin-right: 50px;
 #prodetails .single-pro-details{
     width: 50%;
     padding-top: 30px;
+    justify-content: center;
+    align-self: center;
 }
 #prodetails .single-pro-details h4{
     padding: 40px 0 20px 0;
@@ -526,9 +528,15 @@ margin-right: 50px;
     font-size: 16px;
     margin-right: 10px;
 }
+#prodetails .single-pro-details input:focus{
+    outline: none;
+}
 #prodetails .single-pro-details button{
     background: #088178;
     color: #fff;
+}
+#prodetails .single-pro-details span{
+    line-height: 25px;
 }
 /*Media Query*/
 @media(max-width:1200px){
