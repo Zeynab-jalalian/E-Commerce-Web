@@ -472,6 +472,21 @@ padding: 14px;
 #page-header p{
     color: #fff;
 }
+#pagination{
+    text-align: center;
+}
+#pagination a{
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+#pagination a i{
+    font-size: 16px;
+    font-weight: 600;
+}
 /*Media Query*/
 @media(max-width:1200px){
     .section-p1{
