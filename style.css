@@ -549,6 +549,7 @@ margin-right: 50px;
     display: flex;
     align-items: center;
     width: 100%;
+    padding-bottom: 90px;
     position: relative;
 }
 #blog .blog-box .blog-img{
