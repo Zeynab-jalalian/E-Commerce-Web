@@ -596,6 +596,10 @@ margin-right: 40px;
     color: #c9cbce;
     z-index: -9;
 }
+/*about*/
+#page-header.about-header{
+    background: url('img/about.jpg');
+}
 /*Media Query*/
 @media(max-width:1200px){
     .section-p1{
