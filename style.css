@@ -600,6 +600,17 @@ margin-right: 40px;
 #page-header.about-header{
     background: url('img/about.jpg');
 }
+#about-head{
+    display: flex;
+    align-items: center;
+}
+#about-head div{
+    padding-left: 40px;
+}
+#about-head img{
+    width: 50%;
+    height: auto;
+}
 /*Media Query*/
 @media(max-width:1200px){
     .section-p1{
