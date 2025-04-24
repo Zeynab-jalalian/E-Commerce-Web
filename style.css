@@ -773,7 +773,8 @@ align-items: start;
     width: 50%;
     margin-bottom: 30px;
 }
-#coupon h3{
+#coupon h3,
+#subtotal h3{
     padding-bottom: 15px;
 }
 #coupon input{
@@ -783,11 +784,30 @@ align-items: start;
     margin-right: 10px;
     border: 1px solid #e2e9e1;
 }
-#coupon button{
+#coupon button,
+#subtotal button{
     background: #088178;
     color: #fff;
     padding: 12px 20px;
 }
+#subtotal{
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid #e2e9e1;
+    padding: 30px;
+}
+#subtotal table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+#subtotal table td{
+    width: 50%;
+    border: 1px solid #e2e9e1;
+    padding: 10px;
+    font-size: 13px;
+}
+
 /*Media Query*/
 @media(max-width:1200px){
     .section-p1{
