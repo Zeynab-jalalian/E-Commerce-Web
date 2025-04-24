@@ -758,6 +758,12 @@ align-items: start;
     font-size: 13px;
     padding: 18px 0;
 }
+#cart table tbody tr td{
+    padding-top: 15px;
+}
+#cart table tbody td{
+    font-size: 13px;
+}
 /*Media Query*/
 @media(max-width:1200px){
     .section-p1{
